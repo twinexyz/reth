@@ -503,7 +503,7 @@ where
         let state_provider = db.database.0.inner.borrow_mut();
         state_provider
             .db
-            .state_root(HashedPostState::from_bundle_state(&execution_outcome.state().state))?
+            .state_root(&HashedPostState::from_bundle_state(&execution_outcome.state().state))?
     };
 
     // create the block header

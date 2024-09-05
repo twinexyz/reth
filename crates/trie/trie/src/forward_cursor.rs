@@ -19,6 +19,12 @@ impl<'a, K, V> ForwardInMemoryCursor<'a, K, V> {
     pub fn is_empty(&self) -> bool {
         self.entries.is_empty()
     }
+
+    /// Returns the key the cursor is currently pointing to, or returns `None` if it has been
+    /// exhausted.
+    pub fn current_key(&self) -> Option<&K> {
+        self.entries.get(self.index).map(|(key, _)| key)
+    }
 }
 
 impl<'a, K, V> ForwardInMemoryCursor<'a, K, V>
@@ -41,6 +47,14 @@ where
     /// provided key. This method advances the cursor forward.
     pub fn seek(&mut self, key: &K) -> Option<(K, V)> {
         self.advance_while_false(|k| k < key)
+    }
+
+    /// Advances the cursor to the next entry and returns its value, or `None` if it moves past
+    /// range.
+    #[allow(clippy::should_implement_trait)]
+    pub fn next(&mut self) -> Option<(K, V)> {
+        self.index += 1;
+        self.entries.get(self.index).cloned()
     }
 
     /// Returns the first entry from the current cursor position that's greater than the provided
