@@ -399,8 +399,8 @@ revm = { version = "14.0.3", features = [
     "std",
 ], default-features = false }
 
-revm-inspectors = "0.6"
-revm-primitives = { version = "9.0.0", features = [
+revm-inspectors = "0.8.1"
+revm-primitives = { version = "10.0.0", features = [
     "std",
 ], default-features = false }
 
