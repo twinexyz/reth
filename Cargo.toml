@@ -395,7 +395,7 @@ reth-trie-db = { path = "crates/trie/db" }
 reth-trie-parallel = { path = "crates/trie/parallel" }
 
 # revm
-revm = { version = "17.0.0", features = [
+revm = { version = "14.0.3", features = [
     "std",
 ], default-features = false }
 
