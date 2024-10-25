@@ -395,7 +395,7 @@ reth-trie-db = { path = "crates/trie/db" }
 reth-trie-parallel = { path = "crates/trie/parallel" }
 
 # revm
-revm = { git="https://github.com/twinexyz/revm", branch = "patch/twine-logs", features = [
+revm = { git="https://github.com/twinexyz/revm", tag = "v42", features = [
     "std",
 ], default-features = false }
 revm-inspectors = "0.6"

@@ -6182,7 +6182,7 @@ dependencies = [
  "reth-revm",
  "reth-tasks",
  "reth-transaction-pool",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "tokio",
  "tracing",
 ]
@@ -6342,7 +6342,7 @@ dependencies = [
  "reth-primitives",
  "reth-storage-api",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "tokio",
  "tokio-stream",
  "tracing",
@@ -7090,7 +7090,7 @@ dependencies = [
  "reth-revm",
  "reth-transaction-pool",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "tracing",
 ]
 
@@ -7118,7 +7118,7 @@ dependencies = [
  "reth-primitives",
  "reth-prune-types",
  "reth-storage-errors",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "revm-primitives 9.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -7156,7 +7156,7 @@ dependencies = [
  "reth-primitives",
  "reth-prune-types",
  "reth-revm",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "revm-primitives 9.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror",
  "tracing",
@@ -7187,7 +7187,7 @@ dependencies = [
  "reth-execution-errors",
  "reth-primitives",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
 ]
 
@@ -7672,7 +7672,7 @@ dependencies = [
  "reth-tasks",
  "reth-tracing",
  "reth-transaction-pool",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde_json",
  "tokio",
 ]
@@ -7767,7 +7767,7 @@ dependencies = [
  "reth-rpc-types-compat",
  "reth-tracing",
  "reth-transaction-pool",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
  "serde_json",
  "thiserror",
@@ -7861,7 +7861,7 @@ dependencies = [
  "reth-rpc-types-compat",
  "reth-transaction-pool",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "sha2 0.10.8",
  "thiserror",
  "tracing",
@@ -7895,7 +7895,7 @@ dependencies = [
  "reth-rpc-types",
  "reth-tasks",
  "reth-transaction-pool",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde_json",
  "thiserror",
  "tokio",
@@ -7917,7 +7917,7 @@ dependencies = [
  "reth-provider",
  "reth-rpc-types",
  "reth-transaction-pool",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "thiserror",
  "tokio",
  "tokio-stream",
@@ -8054,7 +8054,7 @@ dependencies = [
  "reth-testing-utils",
  "reth-trie",
  "reth-trie-db",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "strum",
  "tempfile",
  "tokio",
@@ -8123,7 +8123,7 @@ dependencies = [
  "reth-storage-api",
  "reth-storage-errors",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
 ]
 
 [[package]]
@@ -8170,7 +8170,7 @@ dependencies = [
  "reth-testing-utils",
  "reth-transaction-pool",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "revm-inspectors",
  "revm-primitives 9.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "secp256k1",
@@ -8322,7 +8322,7 @@ dependencies = [
  "reth-tasks",
  "reth-transaction-pool",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "revm-inspectors",
  "revm-primitives 9.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "tokio",
@@ -8355,7 +8355,7 @@ dependencies = [
  "reth-tasks",
  "reth-transaction-pool",
  "reth-trie",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "revm-inspectors",
  "revm-primitives 9.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "schnellru",
@@ -8663,7 +8663,7 @@ dependencies = [
  "reth-storage-api",
  "reth-tasks",
  "reth-tracing",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "rustc-hash 2.0.0",
  "schnellru",
  "serde",
@@ -8697,7 +8697,7 @@ dependencies = [
  "reth-stages-types",
  "reth-storage-errors",
  "reth-trie-common",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
  "serde_json",
  "similar-asserts",
@@ -8757,7 +8757,7 @@ dependencies = [
  "reth-storage-errors",
  "reth-trie",
  "reth-trie-common",
- "revm 14.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm 14.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
  "serde_json",
  "similar-asserts",
@@ -8812,13 +8812,13 @@ dependencies = [
 [[package]]
 name = "revm"
 version = "14.0.0"
-source = "git+https://github.com/twinexyz/revm?branch=patch/twine-logs#f1c18fb12ef7c62dc50ad5cc158bb8198deace99"
+source = "git+https://github.com/twinexyz/revm?tag=v42#3085f04ac6b144e7ac721abce9cbbf538ff6b7fe"
 dependencies = [
  "auto_impl",
  "cfg-if",
  "dyn-clone",
- "revm-interpreter 10.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
- "revm-precompile 11.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm-interpreter 10.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
+ "revm-precompile 11.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
  "serde_json",
 ]
@@ -8854,9 +8854,9 @@ dependencies = [
 [[package]]
 name = "revm-interpreter"
 version = "10.0.0"
-source = "git+https://github.com/twinexyz/revm?branch=patch/twine-logs#f1c18fb12ef7c62dc50ad5cc158bb8198deace99"
+source = "git+https://github.com/twinexyz/revm?tag=v42#3085f04ac6b144e7ac721abce9cbbf538ff6b7fe"
 dependencies = [
- "revm-primitives 9.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm-primitives 9.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "serde",
 ]
 
@@ -8881,7 +8881,7 @@ dependencies = [
 [[package]]
 name = "revm-precompile"
 version = "11.0.0"
-source = "git+https://github.com/twinexyz/revm?branch=patch/twine-logs#f1c18fb12ef7c62dc50ad5cc158bb8198deace99"
+source = "git+https://github.com/twinexyz/revm?tag=v42#3085f04ac6b144e7ac721abce9cbbf538ff6b7fe"
 dependencies = [
  "aurora-engine-modexp",
  "blst",
@@ -8890,7 +8890,7 @@ dependencies = [
  "k256",
  "once_cell",
  "p256",
- "revm-primitives 9.0.0 (git+https://github.com/twinexyz/revm?branch=patch/twine-logs)",
+ "revm-primitives 9.0.0 (git+https://github.com/twinexyz/revm?tag=v42)",
  "ripemd",
  "secp256k1",
  "sha2 0.10.8",
@@ -8920,7 +8920,7 @@ dependencies = [
 [[package]]
 name = "revm-primitives"
 version = "9.0.0"
-source = "git+https://github.com/twinexyz/revm?branch=patch/twine-logs#f1c18fb12ef7c62dc50ad5cc158bb8198deace99"
+source = "git+https://github.com/twinexyz/revm?tag=v42#3085f04ac6b144e7ac721abce9cbbf538ff6b7fe"
 dependencies = [
  "alloy-eips",
  "alloy-primitives 0.8.0",
