@@ -169,7 +169,10 @@ where
         for (sender, transaction) in block.transactions_with_sender() {
             // The sum of the transaction’s gas limit, Tg, and the gas utilized in this block prior,
             // must be no greater than the block’s gasLimit.
+            println!("Transaction hash: {}", transaction.hash());
+
             let block_available_gas = block.header.gas_limit - cumulative_gas_used;
+
             if transaction.gas_limit() > block_available_gas {
                 return Err(BlockValidationError::TransactionGasLimitMoreThanAvailableBlockGas {
                     transaction_gas_limit: transaction.gas_limit(),
