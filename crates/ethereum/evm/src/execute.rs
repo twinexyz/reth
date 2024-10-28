@@ -377,6 +377,7 @@ where
     ///
     /// Returns an error if the block could not be executed or failed verification.
     fn execute(mut self, input: Self::Input<'_>) -> Result<Self::Output, Self::Error> {
+        println!("[💚💛] Execute method at crates/ethereum/evm/src/execute.rs");
         let BlockExecutionInput { block, total_difficulty } = input;
         let EthExecuteOutput { receipts, requests, gas_used } =
             self.execute_without_verification(block, total_difficulty)?;
